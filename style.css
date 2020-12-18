@@ -1,4 +1,41 @@
-.responsive{
-    width: 100%;
-    height: auto;
+*{
+    margin-right: 0;
+    padding: 0;
 }
+
+body{
+    /* overflow-x: hidden; */
+}
+
+.img{
+    background-image: url('vector.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    height: 100vh;
+}
+
+.title{
+    font-size: 4vw;
+    color: white;
+    font: bold;
+    text-align: left;
+    position: relative;
+    top: 220px;
+    left: 0px;
+}
+
+.responsive{
+    width: ;
+    height: 37vw;
+    position: relative;
+    top: 70px;
+    left: -100px;
+}
+
+em{
+    font-size: 3vw;
+}
+
