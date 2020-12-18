@@ -23,13 +23,13 @@ body{
     font: bold;
     text-align: left;
     position: relative;
-    top: 220px;
-    left: 0px;
+    top: 180px;
+    left: -60px;
 }
 
 .responsive{
-    width: ;
-    height: 37vw;
+    max-width: 100%;
+    height: auto;
     position: relative;
     top: 70px;
     left: -100px;
@@ -39,3 +39,31 @@ em{
     font-size: 3vw;
 }
 
+@media (max-width: 1065px) {
+    .title{
+        position: relative;
+        top: 170px;
+        left: 2px;
+    }
+}
+
+@media (max-width: 420px) {
+    .title{
+        position: relative;
+        text-align: center;
+        top: 100px;
+        left: 0px;
+        font-size: 12vw;
+    }
+
+    em{
+        font-size: 6vw;
+    }
+
+    .responsive{
+        position: relative;
+        padding: 50px;
+        left: 20px;
+        width: 100vw;
+    }
+}
