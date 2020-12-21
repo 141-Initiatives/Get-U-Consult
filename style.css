@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .body{
     
     overflow: hidden;
@@ -48,3 +49,9 @@ em{
 }
 
 >>>>>>> parent of 10f07a8... Update style.css
+=======
+.responsive{
+    width: 100%;
+    height: auto;
+}
+>>>>>>> parent of dc01f4a... banner
