@@ -59,8 +59,8 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
-    color: #fff;
+    background: linear-gradient(#333433 0%, rgba(109, 109, 109, 0.92) 100%);
+    color: #ffffff;
     transition: all 0.3s;
 }
 
@@ -70,7 +70,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background:333433;
 }
 
 #sidebar ul.components {
@@ -166,4 +166,12 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+}
+
+.logo-pic{
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+    position: relative;
+    left: 50px;
 }
